@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.authors = ["kaspernj"]
   s.date = "2015-05-31"
-  s.description = "TODO: longer description of your gem"
+  s.description = "Helper class for events implementation in other frameworks in Ruby"
   s.email = "k@spernj.org"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -27,6 +27,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "event_handler.gemspec",
     "lib/event_handler.rb",
     "spec/event_handler_spec.rb",
     "spec/spec_helper.rb"
@@ -34,7 +35,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/kaspernj/event_handler"
   s.licenses = ["MIT"]
   s.rubygems_version = "2.2.2"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "Helper class for events implementation in other frameworks in Ruby"
 
   if s.respond_to? :specification_version then
     s.specification_version = 4
