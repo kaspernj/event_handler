@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "event_handler"
   gem.homepage = "http://github.com/kaspernj/event_handler"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Helper class for events implementation in other frameworks in Ruby}
+  gem.description = %Q{Helper class for events implementation in other frameworks in Ruby}
   gem.email = "k@spernj.org"
   gem.authors = ["kaspernj"]
   # dependencies defined in Gemfile
